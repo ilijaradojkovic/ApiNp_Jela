@@ -19,7 +19,7 @@ public static void main(String[] args) {
 	Jelo burger2=new Jelo(2,"Queen Burger",20,"img4");
 	Jelo giros=new Jelo(3,"Giros",10,"img2");
 	List<Jelo> jela=Arrays.asList(burger,burger2,giros);
-	try(BufferedWriter bw=new BufferedWriter(new FileWriter(new File("„niz_objekata.json")))){
+	try(BufferedWriter bw=new BufferedWriter(new FileWriter(new File("niz_objekata.json")))){
 		Gson g=new GsonBuilder().setPrettyPrinting().create();
 		g.toJson(jela,bw);
 		
