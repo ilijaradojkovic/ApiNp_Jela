@@ -17,7 +17,7 @@ public class Main {
 		
 	
 		try {
-			URL url=new URL("https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/search?query=pizza&number=1&offset=0&type=main%20course&rapidapi-key=f399f134d5mshac60582ce8ec350p185769jsnc4294929c64c");
+			URL url=new URL("https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/search?query=pizza&number=1&offset=0&type=main%20course&rapidapi-key=API_KEY");
 			HttpURLConnection  con=(HttpURLConnection) url.openConnection();
 			con.setRequestMethod("GET");
 			BufferedReader bf=new BufferedReader(new InputStreamReader(con.getInputStream()));
