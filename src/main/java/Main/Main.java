@@ -1,4 +1,4 @@
-package Models;
+package Main;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,6 +8,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import com.google.gson.Gson;
+
+import Models.JeloRequest;
 
 public class Main {
 
